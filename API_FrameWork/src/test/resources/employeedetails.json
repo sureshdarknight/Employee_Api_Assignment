@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "required": [
+        "status",
+        "data",
+        "message"
+    ],
+    "properties": {
+        "status": {
+            "$id": "#/properties/status",
+            "type": "string",
+            "title": "Response Status",
+            "description": "Response Status Schema"
+        },
+        "data": {
+            "$id": "#/properties/data",
+            "type": "object",
+            "title": "Employee Data",
+            "description": "Employee Data Schema",
+            "required": [
+                "id",
+                "employee_name",
+                "employee_salary",
+                "employee_age",
+                "profile_image"
+            ],
+            "properties": {
+                "id": {
+                    "$id": "#/properties/data/properties/id",
+                    "type": "integer",
+                    "title": "Id",
+                    "description": "Id of the Employee"
+                },
+                "employee_name": {
+                    "$id": "#/properties/data/properties/employee_name",
+                    "type": "string",
+                    "title": "Employee Name",
+                    "description": "Name of the Employee"
+                },
+                "employee_salary": {
+                    "$id": "#/properties/data/properties/employee_salary",
+                    "type": "integer",
+                    "title": "Employee Salary",
+                    "description": "Salary of the Employee"
+                },
+                "employee_age": {
+                    "$id": "#/properties/data/properties/employee_age",
+                    "type": "integer",
+                    "title": "Employee Age",
+                    "description": "Age of the Employee"
+                },
+                "profile_image": {
+                    "$id": "#/properties/data/properties/profile_image",
+                    "type": "string",
+                    "title": "Profile Image",
+                    "description": "Profile Image of the Employee"
+                }
+            },
+            "additionalProperties": true
+        },
+        "message": {
+            "$id": "#/properties/message",
+            "type": "string",
+            "title": "Status Message",
+            "description": "Status of the response"
+        }
+    },
+    "additionalProperties": true
+}

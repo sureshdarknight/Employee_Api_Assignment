@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5278" started-at="2020-10-24T06:27:10Z" finished-at="2020-10-24T06:27:15Z">
+    <groups>
+    </groups>
+    <test name="Scenario 1" duration-ms="5278" started-at="2020-10-24T06:27:10Z" finished-at="2020-10-24T06:27:15Z">
+      <class name="api.axiom.test.TestSuite">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="startReport" is-config="true" duration-ms="113" started-at="2020-10-24T11:57:10Z" finished-at="2020-10-24T11:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="SC1_validateStatusCode()[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="SC1_validateStatusCode" duration-ms="2527" started-at="2020-10-24T11:57:10Z" finished-at="2020-10-24T11:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC1_validateStatusCode -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-24T11:57:13Z" finished-at="2020-10-24T11:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SC1_validateStatusCode status=SUCCESS method=TestSuite.SC1_validateStatusCode()[pri:0, instance:api.axiom.test.TestSuite@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SC1_validateEmployeesProfileImage()[pri:1, instance:api.axiom.test.TestSuite@399f45b1]" name="SC1_validateEmployeesProfileImage" duration-ms="912" started-at="2020-10-24T11:57:13Z" finished-at="2020-10-24T11:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC1_validateEmployeesProfileImage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-24T11:57:13Z" finished-at="2020-10-24T11:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SC1_validateEmployeesProfileImage status=SUCCESS method=TestSuite.SC1_validateEmployeesProfileImage()[pri:1, instance:api.axiom.test.TestSuite@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SC2_validateStatusCode()[pri:2, instance:api.axiom.test.TestSuite@399f45b1]" name="SC2_validateStatusCode" duration-ms="1079" started-at="2020-10-24T11:57:13Z" finished-at="2020-10-24T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC2_validateStatusCode -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="getResult" is-config="true" duration-ms="0" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SC2_validateStatusCode status=SUCCESS method=TestSuite.SC2_validateStatusCode()[pri:2, instance:api.axiom.test.TestSuite@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SC2_validateEmployeeImage()[pri:3, instance:api.axiom.test.TestSuite@399f45b1]" name="SC2_validateEmployeeImage" duration-ms="5" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC2_validateEmployeeImage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SC2_validateEmployeeImage status=SUCCESS method=TestSuite.SC2_validateEmployeeImage()[pri:3, instance:api.axiom.test.TestSuite@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SC2_validateResponsePattern()[pri:4, instance:api.axiom.test.TestSuite@399f45b1]" name="SC2_validateResponsePattern" duration-ms="385" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC2_validateResponsePattern -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="getResult" is-config="true" duration-ms="1" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SC2_validateResponsePattern status=SUCCESS method=TestSuite.SC2_validateResponsePattern()[pri:4, instance:api.axiom.test.TestSuite@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:api.axiom.test.TestSuite@399f45b1]" name="endReport" is-config="true" duration-ms="236" started-at="2020-10-24T11:57:15Z" finished-at="2020-10-24T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- api.axiom.test.TestSuite -->
+    </test> <!-- Scenario 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

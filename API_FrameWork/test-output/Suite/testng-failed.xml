@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Scenario 2(failed)">
+    <classes>
+      <class name="api.axiom.test.Scenario2_TestSuite">
+        <methods>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="SC2_validateStatusCode"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- api.axiom.test.Scenario2_TestSuite -->
+    </classes>
+  </test> <!-- Scenario 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
